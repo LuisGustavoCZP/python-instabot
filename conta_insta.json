@@ -1,0 +1,16 @@
+[
+    {
+        "email":"chicoungunha123+alinecardoso@gmail.com",
+        "senha":"cazape1234",
+        "username":"cardo_aline",
+        "userpass":"cazape1234",
+        "denied":true
+    },
+    {
+        "email":"breno_popus@protonmail.com",
+        "senha":"cazape1234",
+        "username":"breno_popus",
+        "userpass":"cazape123",
+        "denied":false
+    }
+]

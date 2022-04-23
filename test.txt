@@ -1,0 +1,25 @@
+_01UL2
+fuqBx 
+
+div.Nnq7C.weEfm > div._bz0w > a
+
+section.ltpMr.Slqrh > span.fr66n > button.wpO6b
+
+_4emnV
+
+aria-label="Carregando..."
+
+"""
+            try:
+                browser.find_element(By.CSS_SELECTOR, "div._bz0w:not(.v1Nh3)")
+            except:
+                final_element = None
+                while final_element == None:
+                    print("Rolando feed...")
+                    browser.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+                    try: 
+                        final_element = browser.find_element(By.CSS_SELECTOR, "div._bz0w:not(.v1Nh3)")
+                        if final_element.get_property('childElementCount') != 0 : break
+                    except: 
+                        final_element = None 
+        """

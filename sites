@@ -1,0 +1,7 @@
+'https://www.instagram.com/'
+
+'https://www.thecrims.com/#/'
+users = [
+    {'name':'robasao', 'pass':'czp1234'},
+    {'name':'luisgustavo', 'pass':'czp1234'}
+]
